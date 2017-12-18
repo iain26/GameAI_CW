@@ -54,6 +54,7 @@ public class PathfindingScript : MonoBehaviour {
             while (parents[end] != startPoint)
             {
                 path.Add(parents[end]);
+                Debug.DrawLine(end, parents[end], Color.red,1000f,false);
                 end = parents[end];
             }
 
@@ -93,9 +94,19 @@ public class PathfindingScript : MonoBehaviour {
 
         while (openList.Count > 0)
         {
+            //openList.Sort();
+            Vector2 checkFVector = startPoint;
+            float checkF = float.MaxValue;
+            foreach (Vector2 point in openList)
+            {
+                if (f.Count > 0)
+                {
+                    if (f[point] < checkF)
+                        checkFVector = point;
+                }
+            }
 
-            openList.Sort();
-            Vector2 current = openList[0];
+            Vector2 current = checkFVector;
 
             openList.Remove(current);
             closedList.Add(current);
@@ -109,6 +120,7 @@ public class PathfindingScript : MonoBehaviour {
             traversableNeighbours = CheckNeighbouringPoints(current);
 
             int numNeighbours = traversableNeighbours.Count;
+            print(numNeighbours);
 
             float fConsistent = float.MaxValue;
             int fIndex = 0;
@@ -122,30 +134,22 @@ public class PathfindingScript : MonoBehaviour {
                 //cost is distance as terrain is standard
                 float gCostToNeigbour = Vector2.Distance(current, neighbourCurrent);
                 float hEstCostToEnd = Vector2.Distance(neighbourCurrent, end);
-                if (fConsistent < gCostToNeigbour + hEstCostToEnd || !(openList.Contains(neighbourCurrent)))
+                //if (fConsistent < gCostToNeigbour + hEstCostToEnd || !(openList.Contains(neighbourCurrent)))
+                //{
+                fConsistent = gCostToNeigbour + hEstCostToEnd;
+
+                //    fIndex++;
+                //}
+                if (fConsistent <= (f[neighbourCurrent]) || !(openList.Contains(neighbourCurrent)))
                 {
-                    fConsistent = gCostToNeigbour + hEstCostToEnd;
-
-                    //    neighbourCurrent.g = g;
-                    //    connectedNode.f = g;
-                    //    connectedNode.h = EuclideanDistanceHeuristic(connectedNode.x, connectedNode.y, endNode.x, endNode.y);
-                    //    connectedNode.f += connectedNode.h;
-
-                    fIndex++;
-                    //}
-                    //float fConsistent = gCostToNeigbour + hEstCostToEnd;
-                    //if (f <= (connectedNode.f) || !(openList.Contains(connectedNode)))
-                    //{
-                    //    connectedNode.g = g;
-                    //    connectedNode.f = g;
-                    //    connectedNode.h = EuclideanDistanceHeuristic(connectedNode.x, connectedNode.y, endNode.x, endNode.y);
-                    //    connectedNode.f += connectedNode.h;
-                    //    //finish Euclidean heuristic here^
+                    g.Add(neighbourCurrent, gCostToNeigbour);
+                    f.Add(neighbourCurrent, gCostToNeigbour);
+                    h.Add(neighbourCurrent, EuclideanDistanceHeuristic(neighbourCurrent.x, neighbourCurrent.y, end.x, end.y));
+                    f[neighbourCurrent] += h[neighbourCurrent];
+                    //finish Euclidean heuristic here^
                 }
-                if (!(openList.Contains(traversableNeighbours[fIndex])))
+                if (!(openList.Contains(neighbourCurrent)))
                 {
-                    //connectedNode.parent = current;
-                    //parents[neighbourCurrent] = current;
                     parents.Add(neighbourCurrent, current);
                     openList.Add(neighbourCurrent);
                 }
@@ -162,7 +166,7 @@ public class PathfindingScript : MonoBehaviour {
         //{
         //    for (int x = 1; x < 16; x++)
         //    {
-        //        GameObject.Find("Cell x : " + x.ToString() + " y: " + y.ToString()).gameObject.transform.localPosition = new Vector3(1.5f * (x - 8), 1 * (y - 8));
+        //        //GameObject.Find("Cell x : " + x.ToString() + " y: " + y.ToString()).gameObject.transform.localPosition = new Vector3(1.5f * (x - 8), 1 * (y - 8));
         //    }
         //}
     }
