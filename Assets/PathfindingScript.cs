@@ -11,11 +11,12 @@ public class PathfindingScript : MonoBehaviour {
     public Vector2 endPoint;
 
     Dictionary<Vector2, Vector2> parents = new Dictionary<Vector2, Vector2>();
+    Dictionary<Vector2, bool> visited = new Dictionary<Vector2, bool>();
     Dictionary<Vector2, float> g = new Dictionary<Vector2, float>();
     Dictionary<Vector2, float> h = new Dictionary<Vector2, float>();
     Dictionary<Vector2, float> f = new Dictionary<Vector2, float>();
 
-    public enum PathfindSearch { dStar, aStar};
+    public enum PathfindSearch { dStar, aStar, BFS };
 
     public PathfindSearch pathfindSearch = PathfindSearch.aStar;
     
@@ -29,6 +30,7 @@ public class PathfindingScript : MonoBehaviour {
             if (!grid.transform.GetChild(count).gameObject.activeInHierarchy)
                 traversablePoints.Add(grid.transform.GetChild(count).position);
         }
+
         startPoint = traversablePoints[0];
         endPoint = traversablePoints[5];
 
@@ -38,6 +40,9 @@ public class PathfindingScript : MonoBehaviour {
                 pathCheck = AStarSearch(startPoint, endPoint);
                 break;
             case PathfindSearch.dStar:
+                break;
+            case PathfindSearch.BFS:
+                pathCheck = BreadthFirstSearch(startPoint, endPoint);
                 break;
         }
 
@@ -94,6 +99,7 @@ public class PathfindingScript : MonoBehaviour {
 
         while (openList.Count > 0)
         {
+
             //openList.Sort();
             Vector2 checkFVector = startPoint;
             float checkF = float.MaxValue;
@@ -108,6 +114,8 @@ public class PathfindingScript : MonoBehaviour {
 
             Vector2 current = checkFVector;
 
+            //Vector2 current = openList[0];
+
             openList.Remove(current);
             closedList.Add(current);
 
@@ -120,7 +128,7 @@ public class PathfindingScript : MonoBehaviour {
             traversableNeighbours = CheckNeighbouringPoints(current);
 
             int numNeighbours = traversableNeighbours.Count;
-            print(numNeighbours);
+            //print(numNeighbours);
 
             float fConsistent = float.MaxValue;
             int fIndex = 0;
@@ -134,16 +142,19 @@ public class PathfindingScript : MonoBehaviour {
                 //cost is distance as terrain is standard
                 float gCostToNeigbour = Vector2.Distance(current, neighbourCurrent);
                 float hEstCostToEnd = Vector2.Distance(neighbourCurrent, end);
+                if(hEstCostToEn)
                 //if (fConsistent < gCostToNeigbour + hEstCostToEnd || !(openList.Contains(neighbourCurrent)))
                 //{
                 fConsistent = gCostToNeigbour + hEstCostToEnd;
 
                 //    fIndex++;
                 //}
+
+                f.Add(neighbourCurrent, gCostToNeigbour);
                 if (fConsistent <= (f[neighbourCurrent]) || !(openList.Contains(neighbourCurrent)))
                 {
                     g.Add(neighbourCurrent, gCostToNeigbour);
-                    f.Add(neighbourCurrent, gCostToNeigbour);
+                    f[neighbourCurrent] += g[neighbourCurrent];
                     h.Add(neighbourCurrent, EuclideanDistanceHeuristic(neighbourCurrent.x, neighbourCurrent.y, end.x, end.y));
                     f[neighbourCurrent] += h[neighbourCurrent];
                     //finish Euclidean heuristic here^
@@ -152,10 +163,48 @@ public class PathfindingScript : MonoBehaviour {
                 {
                     parents.Add(neighbourCurrent, current);
                     openList.Add(neighbourCurrent);
+                    visited.Add(neighbourCurrent, false);
                 }
             }
         }
 
+        return null;
+    }
+
+    public List<Vector2> BreadthFirstSearch(Vector2 start, Vector2 end)
+    {
+        visited.Add(start, true);
+
+        Queue<Vector2> stack = new Queue<Vector2>();
+        stack.Enqueue(start);
+
+        while (stack.Count > 0)
+        {
+            Vector2 currentNode = stack.Dequeue();
+
+            if (currentNode == end)
+            {
+                return BackTrackPath(end);
+            }
+
+            List<Vector2> traversableNeighbours = new List<Vector2>();
+            traversableNeighbours = CheckNeighbouringPoints(currentNode);
+
+            int numNeighbours = traversableNeighbours.Count;
+            for (int connectedNodesIndex = 0; connectedNodesIndex < numNeighbours; ++connectedNodesIndex)
+            {
+                Vector2 connectedNode = traversableNeighbours[connectedNodesIndex];
+                if (!visited.ContainsKey(connectedNode))
+                {
+                    visited.Add(connectedNode, true);
+                    parents.Add(connectedNode, currentNode);
+
+                    stack.Enqueue(connectedNode);
+                }
+            }
+        }
+
+        // No path has been found
         return null;
     }
 
