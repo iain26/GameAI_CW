@@ -17108,9 +17108,9 @@ MonoBehaviour:
   traversablePoints: []
   grid: {fileID: 1283356410}
   startPoint: {x: 0, y: 0}
-  startIndex: 39
+  startIndex: 8
   endPoint: {x: 0, y: 0}
-  endIndex: 58
+  endIndex: 29
   pathfindSearch: 1
   heuristic: 1
   pathCheck: []
