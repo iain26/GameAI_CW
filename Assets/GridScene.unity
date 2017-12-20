@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -87,7 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -179,6 +179,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &15398138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -204,6 +205,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &16387567
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +279,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &16387571
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -300,6 +305,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &24701688
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +379,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &24701692
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -396,6 +405,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &46055614
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +479,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &46055618
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -492,6 +505,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &53071657
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +579,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &53071661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -588,6 +605,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &58251602
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +679,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &58251606
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -684,6 +705,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &60124570
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +779,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &60124574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -780,6 +805,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &68666653
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +879,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &68666657
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -876,6 +905,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &69846537
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +979,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &69846541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -972,6 +1005,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &89194687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,6 +1079,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &89194691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1068,6 +1105,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &100294162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1179,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &100294166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1164,6 +1205,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &104341726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1279,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &104341730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1260,6 +1305,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &116406190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,6 +1379,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &116406194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1356,6 +1405,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &117872107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1479,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &117872111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1452,6 +1505,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &123738511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1579,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &123738515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1548,6 +1605,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &132961038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,6 +1679,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &132961042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1644,6 +1705,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &163109792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1778,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &164276697
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1850,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &164276701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1810,6 +1876,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &173302600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,6 +1950,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &173302604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1906,6 +1976,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &175826909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1977,6 +2050,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &175826913
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2002,6 +2076,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &187612046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,6 +2149,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &187898419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,6 +2221,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &187898423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2168,6 +2247,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &192904634
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,6 +2321,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &192904638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2264,6 +2347,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &193987574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,6 +2421,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &193987578
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2360,6 +2447,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &196041402
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,6 +2521,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &196041406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2456,6 +2547,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &207226989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2527,6 +2621,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &207226993
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2552,6 +2647,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &214857020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2623,6 +2721,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &214857024
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2648,6 +2747,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &224324581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,6 +2821,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &224324585
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2744,6 +2847,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &246018251
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,6 +2921,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &246018255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2840,6 +2947,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &254564657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2911,6 +3021,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &254564661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2936,6 +3047,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &261096706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,6 +3121,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &261096710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3032,6 +3147,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &265006293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3103,6 +3221,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &265006297
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3128,6 +3247,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &272426526
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,6 +3321,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &272426530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3224,6 +3347,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &273412930
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,6 +3421,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &273412934
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3320,6 +3447,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &279496413
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,8 +3521,14 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &279496417
 BoxCollider2D:
+=======
+  m_MaskInteraction: 0
+--- !u!1 &288735879
+GameObject:
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3487,6 +3623,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &288735883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3512,6 +3649,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &309822343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,6 +3723,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &309822347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3608,6 +3749,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &314184236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3717,6 +3861,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &341191871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3742,6 +3887,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &364105644
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,6 +3961,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &364105648
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3838,6 +3987,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &411504484
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,6 +4061,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &411504488
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3934,6 +4087,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &432540850
 GameObject:
   m_ObjectHideFlags: 0
@@ -4005,6 +4161,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &432540854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4030,6 +4187,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &432864908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4101,6 +4261,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &432864912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4126,6 +4287,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &435254302
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +4361,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &435254306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4222,6 +4387,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &436761384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,6 +4461,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &436761388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4318,6 +4487,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &449883589
 GameObject:
   m_ObjectHideFlags: 0
@@ -4389,6 +4561,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &449883593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4414,6 +4587,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &476010957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4484,6 +4660,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &491464928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4555,6 +4732,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &491464932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4580,6 +4758,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &492097184
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,6 +4832,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &492097188
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4676,6 +4858,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &498698735
 GameObject:
   m_ObjectHideFlags: 0
@@ -4747,6 +4932,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &498698739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4772,6 +4958,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &500615162
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,6 +5032,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &500615166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4868,6 +5058,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &506101560
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,6 +5132,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &506101564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4964,6 +5158,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &506768955
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,8 +5232,14 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &506768959
 BoxCollider2D:
+=======
+  m_MaskInteraction: 0
+--- !u!1 &507196825
+GameObject:
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5131,6 +5334,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &507196829
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5156,6 +5360,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &509272778
 GameObject:
   m_ObjectHideFlags: 0
@@ -5227,6 +5434,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &509272782
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5252,6 +5460,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &511891690
 GameObject:
   m_ObjectHideFlags: 0
@@ -5323,6 +5534,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &511891694
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5348,6 +5560,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &512803021
 GameObject:
   m_ObjectHideFlags: 0
@@ -5419,6 +5634,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &512803025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5444,6 +5660,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &521173812
 GameObject:
   m_ObjectHideFlags: 0
@@ -5515,6 +5734,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &521173816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5540,6 +5760,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &522383377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5611,6 +5834,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &522383381
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5636,6 +5860,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &534398378
 GameObject:
   m_ObjectHideFlags: 0
@@ -5707,6 +5934,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &534398382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5732,6 +5960,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &534947875
 GameObject:
   m_ObjectHideFlags: 0
@@ -5803,8 +6034,14 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &534947879
 BoxCollider2D:
+=======
+  m_MaskInteraction: 0
+--- !u!1 &538497928
+GameObject:
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5899,6 +6136,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &538497932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5924,6 +6162,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &539373504
 GameObject:
   m_ObjectHideFlags: 0
@@ -5995,6 +6236,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &539373508
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6020,6 +6262,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &543493758
 GameObject:
   m_ObjectHideFlags: 0
@@ -6091,6 +6336,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &543493762
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6116,6 +6362,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &553779047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6187,6 +6436,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &553779051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6212,6 +6462,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &556509570
 GameObject:
   m_ObjectHideFlags: 0
@@ -6283,6 +6536,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &556509574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6308,6 +6562,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &558914843
 GameObject:
   m_ObjectHideFlags: 0
@@ -6379,6 +6636,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &558914847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6404,6 +6662,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &575279073
 GameObject:
   m_ObjectHideFlags: 0
@@ -6475,6 +6736,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &575279077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6501,6 +6763,10 @@ BoxCollider2D:
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
 --- !u!1 &583157466
+=======
+  m_MaskInteraction: 0
+--- !u!1 &614891223
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -6701,6 +6967,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &614891227
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6726,6 +6993,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &626568717
 GameObject:
   m_ObjectHideFlags: 0
@@ -6797,6 +7067,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &626568721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6822,6 +7093,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &639084785
 GameObject:
   m_ObjectHideFlags: 0
@@ -6893,6 +7167,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &639084789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6918,6 +7193,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &668188806
 GameObject:
   m_ObjectHideFlags: 0
@@ -6989,6 +7267,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &668188810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7014,6 +7293,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &670061471
 GameObject:
   m_ObjectHideFlags: 0
@@ -7085,6 +7367,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &670061475
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7110,6 +7393,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &679342117
 GameObject:
   m_ObjectHideFlags: 0
@@ -7181,6 +7467,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &679342121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7206,6 +7493,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &679435964
 GameObject:
   m_ObjectHideFlags: 0
@@ -7309,6 +7599,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &684096109
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7334,6 +7625,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &690383879
 GameObject:
   m_ObjectHideFlags: 0
@@ -7405,6 +7699,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &690383883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7430,6 +7725,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &692991981
 GameObject:
   m_ObjectHideFlags: 0
@@ -7501,6 +7799,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &692991985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7526,6 +7825,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &699288652
 GameObject:
   m_ObjectHideFlags: 0
@@ -7597,6 +7899,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &699288656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7622,6 +7925,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &727119749
 GameObject:
   m_ObjectHideFlags: 0
@@ -7693,6 +7999,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &727119753
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7718,6 +8025,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &733511989
 GameObject:
   m_ObjectHideFlags: 0
@@ -7789,6 +8099,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &733511993
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7814,6 +8125,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &744047890
 GameObject:
   m_ObjectHideFlags: 0
@@ -7884,6 +8198,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &749157121
 GameObject:
   m_ObjectHideFlags: 0
@@ -7955,6 +8270,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &749157125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7980,6 +8296,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &749616414
 GameObject:
   m_ObjectHideFlags: 0
@@ -8051,6 +8370,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &749616418
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8076,6 +8396,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &754277750
 GameObject:
   m_ObjectHideFlags: 0
@@ -8147,6 +8470,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &754277754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8172,6 +8496,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &782790207
 GameObject:
   m_ObjectHideFlags: 0
@@ -8243,6 +8570,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &782790211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8268,6 +8596,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &786657349
 GameObject:
   m_ObjectHideFlags: 0
@@ -8339,6 +8670,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &786657353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8364,6 +8696,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &786907996
 GameObject:
   m_ObjectHideFlags: 0
@@ -8435,6 +8770,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &786908000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8460,6 +8796,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &806752119
 GameObject:
   m_ObjectHideFlags: 0
@@ -8531,6 +8870,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &806752123
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8556,6 +8896,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &831068936
 GameObject:
   m_ObjectHideFlags: 0
@@ -8627,6 +8970,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &831068940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8652,6 +8996,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &838991778
 GameObject:
   m_ObjectHideFlags: 0
@@ -8723,6 +9070,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &838991782
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8748,6 +9096,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &846452913
 GameObject:
   m_ObjectHideFlags: 0
@@ -8819,6 +9170,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &846452917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8844,6 +9196,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &848180177
 GameObject:
   m_ObjectHideFlags: 0
@@ -8915,6 +9270,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &848180181
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8940,6 +9296,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &850889814
 GameObject:
   m_ObjectHideFlags: 0
@@ -9011,6 +9370,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &850889818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9036,6 +9396,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &857621838
 GameObject:
   m_ObjectHideFlags: 0
@@ -9107,6 +9470,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &857621842
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9132,6 +9496,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &861966002
 GameObject:
   m_ObjectHideFlags: 0
@@ -9203,6 +9570,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &861966006
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9228,6 +9596,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &862337480
 GameObject:
   m_ObjectHideFlags: 0
@@ -9299,6 +9670,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &862337484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9324,6 +9696,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &895482412
 GameObject:
   m_ObjectHideFlags: 0
@@ -9395,6 +9770,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &895482416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9420,6 +9796,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &900896057
 GameObject:
   m_ObjectHideFlags: 0
@@ -9490,6 +9869,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &910885535
 GameObject:
   m_ObjectHideFlags: 0
@@ -9561,6 +9941,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &910885539
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9586,6 +9967,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &912006083
 GameObject:
   m_ObjectHideFlags: 0
@@ -9657,6 +10041,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &912006087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9682,6 +10067,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &938965306
 GameObject:
   m_ObjectHideFlags: 0
@@ -9753,6 +10141,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &938965310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9778,6 +10167,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &940204241
 GameObject:
   m_ObjectHideFlags: 0
@@ -9849,6 +10241,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &940204245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9874,6 +10267,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &940633335
 GameObject:
   m_ObjectHideFlags: 0
@@ -9945,6 +10341,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &940633339
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9970,6 +10367,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &947782226
 GameObject:
   m_ObjectHideFlags: 0
@@ -10040,6 +10440,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &958483610
 GameObject:
   m_ObjectHideFlags: 0
@@ -10111,6 +10512,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &958483614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10136,6 +10538,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &959437893
 GameObject:
   m_ObjectHideFlags: 0
@@ -10207,6 +10612,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &959437897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10232,6 +10638,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &973454084
 GameObject:
   m_ObjectHideFlags: 0
@@ -10303,6 +10712,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &973454088
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10328,6 +10738,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &973536295
 GameObject:
   m_ObjectHideFlags: 0
@@ -10399,6 +10812,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &973536299
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10424,6 +10838,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &985935403
 GameObject:
   m_ObjectHideFlags: 0
@@ -10495,6 +10912,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &985935407
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10520,6 +10938,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &989672704
 GameObject:
   m_ObjectHideFlags: 0
@@ -10591,6 +11012,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &989672708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10616,6 +11038,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &998753660
 GameObject:
   m_ObjectHideFlags: 0
@@ -10687,6 +11112,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &998753664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10712,6 +11138,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1005889489
 GameObject:
   m_ObjectHideFlags: 0
@@ -10783,6 +11212,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1005889493
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10808,6 +11238,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1009917887
 GameObject:
   m_ObjectHideFlags: 0
@@ -10879,6 +11312,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1009917891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10904,6 +11338,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1015435833
 GameObject:
   m_ObjectHideFlags: 0
@@ -10975,6 +11412,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1015435837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11000,6 +11438,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1021446085
 GameObject:
   m_ObjectHideFlags: 0
@@ -11071,6 +11512,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1021446089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11096,6 +11538,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1021632113
 GameObject:
   m_ObjectHideFlags: 0
@@ -11167,6 +11612,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1021632117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11192,6 +11638,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1023304539
 GameObject:
   m_ObjectHideFlags: 0
@@ -11263,6 +11712,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1023304543
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11288,6 +11738,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1024071435
 GameObject:
   m_ObjectHideFlags: 0
@@ -11359,6 +11812,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1024071439
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11384,6 +11838,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1037210900
 GameObject:
   m_ObjectHideFlags: 0
@@ -11454,6 +11911,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1053819556
 GameObject:
   m_ObjectHideFlags: 0
@@ -11525,6 +11983,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1053819560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11550,6 +12009,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1054305089
 GameObject:
   m_ObjectHideFlags: 0
@@ -11621,6 +12083,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1054305093
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11646,6 +12109,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1068425103
 GameObject:
   m_ObjectHideFlags: 0
@@ -11717,6 +12183,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1068425107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11742,6 +12209,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1068949474
 GameObject:
   m_ObjectHideFlags: 0
@@ -11813,6 +12283,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1068949478
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11838,6 +12309,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1073695709
 GameObject:
   m_ObjectHideFlags: 0
@@ -11909,6 +12383,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1073695713
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11934,6 +12409,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1073745290
 GameObject:
   m_ObjectHideFlags: 0
@@ -12005,6 +12483,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1073745294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12030,6 +12509,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1073913594
 GameObject:
   m_ObjectHideFlags: 0
@@ -12127,6 +12609,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1073913599
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12152,6 +12635,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.27015385, y: 0.196}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1082174864
 GameObject:
   m_ObjectHideFlags: 0
@@ -12223,6 +12709,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1082174868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12248,6 +12735,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1088264544
 GameObject:
   m_ObjectHideFlags: 0
@@ -12319,6 +12809,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1088264548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12344,6 +12835,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1097975247
 GameObject:
   m_ObjectHideFlags: 0
@@ -12415,6 +12909,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1097975251
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12440,6 +12935,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1109940043
 GameObject:
   m_ObjectHideFlags: 0
@@ -12511,6 +13009,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1109940047
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12536,6 +13035,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1114005169
 GameObject:
   m_ObjectHideFlags: 0
@@ -12607,6 +13109,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1114005173
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12632,6 +13135,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1120461509
 GameObject:
   m_ObjectHideFlags: 0
@@ -12703,6 +13209,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1120461513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12769,6 +13276,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1137904233
 GameObject:
   m_ObjectHideFlags: 0
@@ -12840,6 +13350,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1137904237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12865,6 +13376,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1141239646
 GameObject:
   m_ObjectHideFlags: 0
@@ -12936,6 +13450,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1141239650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12961,6 +13476,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1147870311
 GameObject:
   m_ObjectHideFlags: 0
@@ -13032,6 +13550,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1147870315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13057,6 +13576,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1156337125
 GameObject:
   m_ObjectHideFlags: 0
@@ -13128,6 +13650,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1156337129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13153,6 +13676,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1159077276
 GameObject:
   m_ObjectHideFlags: 0
@@ -13224,6 +13750,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1159077280
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13249,6 +13776,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1162498211
 GameObject:
   m_ObjectHideFlags: 0
@@ -13320,6 +13850,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1162498215
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13345,6 +13876,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1172857100
 GameObject:
   m_ObjectHideFlags: 0
@@ -13416,6 +13950,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1172857104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13441,6 +13976,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1184211159
 GameObject:
   m_ObjectHideFlags: 0
@@ -13512,6 +14050,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1184211163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13537,6 +14076,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1197004272
 GameObject:
   m_ObjectHideFlags: 0
@@ -13608,6 +14150,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1197004276
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13633,6 +14176,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1209390602
 GameObject:
   m_ObjectHideFlags: 0
@@ -13793,6 +14339,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1218650842
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13818,6 +14365,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1223875326
 GameObject:
   m_ObjectHideFlags: 0
@@ -13889,6 +14439,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1223875330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13914,6 +14465,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1225979554
 GameObject:
   m_ObjectHideFlags: 0
@@ -13985,6 +14539,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1225979558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14010,6 +14565,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1227743997
 GameObject:
   m_ObjectHideFlags: 0
@@ -14081,6 +14639,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1227744001
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14106,6 +14665,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1229585618
 GameObject:
   m_ObjectHideFlags: 0
@@ -14177,6 +14739,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1229585622
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14202,6 +14765,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1240858634
 GameObject:
   m_ObjectHideFlags: 0
@@ -14273,6 +14839,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1240858638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14298,6 +14865,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1242466496
 GameObject:
   m_ObjectHideFlags: 0
@@ -14369,6 +14939,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1242466500
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14394,6 +14965,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1252976917
 GameObject:
   m_ObjectHideFlags: 0
@@ -14465,6 +15039,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1252976921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14490,6 +15065,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1260387486
 GameObject:
   m_ObjectHideFlags: 0
@@ -14561,6 +15139,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1260387490
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14586,6 +15165,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1263639444
 GameObject:
   m_ObjectHideFlags: 0
@@ -14656,6 +15238,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1263924922
 GameObject:
   m_ObjectHideFlags: 0
@@ -14727,6 +15310,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1263924926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14752,6 +15336,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1265269693
 GameObject:
   m_ObjectHideFlags: 0
@@ -14823,6 +15410,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1265269697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14848,6 +15436,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1276096688
 GameObject:
   m_ObjectHideFlags: 0
@@ -14919,6 +15510,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1276096692
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14944,6 +15536,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1281516540
 GameObject:
   m_ObjectHideFlags: 0
@@ -15015,6 +15610,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1281516544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15040,6 +15636,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1283356410
 GameObject:
   m_ObjectHideFlags: 0
@@ -15382,6 +15981,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1286548646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15407,6 +16007,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1288773388
 GameObject:
   m_ObjectHideFlags: 0
@@ -15478,6 +16081,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1288773392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15503,6 +16107,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1291693894
 GameObject:
   m_ObjectHideFlags: 0
@@ -15574,6 +16181,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1291693898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15599,6 +16207,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1300930311
 GameObject:
   m_ObjectHideFlags: 0
@@ -15669,6 +16280,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1301440987
 GameObject:
   m_ObjectHideFlags: 0
@@ -15740,6 +16352,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1301440991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15765,6 +16378,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1307523068
 GameObject:
   m_ObjectHideFlags: 0
@@ -15836,6 +16452,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1307523072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15861,6 +16478,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1308465450
 GameObject:
   m_ObjectHideFlags: 0
@@ -15932,6 +16552,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1308465454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15957,6 +16578,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1314499219
 GameObject:
   m_ObjectHideFlags: 0
@@ -16028,6 +16652,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1314499223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16053,6 +16678,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1327743909
 GameObject:
   m_ObjectHideFlags: 0
@@ -16124,6 +16752,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1327743913
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16149,6 +16778,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1359559563
 GameObject:
   m_ObjectHideFlags: 0
@@ -16220,6 +16852,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1359559567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16245,6 +16878,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1371409540
 GameObject:
   m_ObjectHideFlags: 0
@@ -16316,6 +16952,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1371409544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16341,6 +16978,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1394046367
 GameObject:
   m_ObjectHideFlags: 0
@@ -16412,6 +17052,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1394046371
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16437,6 +17078,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1402489377
 GameObject:
   m_ObjectHideFlags: 0
@@ -16508,6 +17152,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1402489381
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16533,6 +17178,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1410515817
 GameObject:
   m_ObjectHideFlags: 0
@@ -16604,6 +17252,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1410515821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16629,6 +17278,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1439872187
 GameObject:
   m_ObjectHideFlags: 0
@@ -16700,6 +17352,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1439872191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16725,6 +17378,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1440094859
 GameObject:
   m_ObjectHideFlags: 0
@@ -16796,6 +17452,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1440094863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16821,6 +17478,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1441057498
 GameObject:
   m_ObjectHideFlags: 0
@@ -16892,6 +17552,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1441057502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16917,6 +17578,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1443049078
 GameObject:
   m_ObjectHideFlags: 0
@@ -16988,6 +17652,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1443049082
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17013,6 +17678,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1450963253
 GameObject:
   m_ObjectHideFlags: 0
@@ -17084,6 +17752,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1450963257
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17109,6 +17778,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1453521988
 GameObject:
   m_ObjectHideFlags: 0
@@ -17180,6 +17852,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1453521992
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17205,6 +17878,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1469568269
 GameObject:
   m_ObjectHideFlags: 0
@@ -17276,6 +17952,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1469568273
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17301,6 +17978,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1475323418
 GameObject:
   m_ObjectHideFlags: 0
@@ -17372,6 +18052,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1475323422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17397,6 +18078,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1482100172
 GameObject:
   m_ObjectHideFlags: 0
@@ -17468,6 +18152,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1482100176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17493,6 +18178,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1501792548
 GameObject:
   m_ObjectHideFlags: 0
@@ -17564,6 +18252,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1501792552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17589,6 +18278,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1509334761
 GameObject:
   m_ObjectHideFlags: 0
@@ -17659,6 +18351,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1526501804
 GameObject:
   m_ObjectHideFlags: 0
@@ -17730,6 +18423,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1526501808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17755,6 +18449,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1531262569
 GameObject:
   m_ObjectHideFlags: 0
@@ -17825,6 +18522,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1558690655
 GameObject:
   m_ObjectHideFlags: 0
@@ -17896,6 +18594,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1558690659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17921,6 +18620,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1559753329
 GameObject:
   m_ObjectHideFlags: 0
@@ -17992,6 +18694,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1559753333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18017,6 +18720,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1573990509
 GameObject:
   m_ObjectHideFlags: 0
@@ -18088,6 +18794,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1573990513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18113,6 +18820,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1577070306
 GameObject:
   m_ObjectHideFlags: 0
@@ -18184,6 +18894,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1577070310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18209,6 +18920,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1577856393
 GameObject:
   m_ObjectHideFlags: 0
@@ -18280,6 +18994,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1577856397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18305,6 +19020,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1581954317
 GameObject:
   m_ObjectHideFlags: 0
@@ -18376,6 +19094,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1581954321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18401,6 +19120,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1590455467
 GameObject:
   m_ObjectHideFlags: 0
@@ -18472,6 +19194,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1590455471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18497,6 +19220,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1591584869
 GameObject:
   m_ObjectHideFlags: 0
@@ -18568,6 +19294,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1591584873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18593,6 +19320,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1601262964
 GameObject:
   m_ObjectHideFlags: 0
@@ -18664,6 +19394,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1601262968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18689,6 +19420,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1633285810
 GameObject:
   m_ObjectHideFlags: 0
@@ -18760,6 +19494,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1633285814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18785,6 +19520,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1642744977
 GameObject:
   m_ObjectHideFlags: 0
@@ -18856,6 +19594,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1642744981
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18881,6 +19620,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1645813645
 GameObject:
   m_ObjectHideFlags: 0
@@ -18952,6 +19694,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1645813649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18977,6 +19720,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1671209203
 GameObject:
   m_ObjectHideFlags: 0
@@ -19048,6 +19794,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1671209207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19073,6 +19820,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1678207658
 GameObject:
   m_ObjectHideFlags: 0
@@ -19144,6 +19894,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1678207662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19169,6 +19920,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1698286411
 GameObject:
   m_ObjectHideFlags: 0
@@ -19240,6 +19994,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1698286415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19265,6 +20020,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1735430578
 GameObject:
   m_ObjectHideFlags: 0
@@ -19336,6 +20094,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1735430582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19361,6 +20120,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1747637889
 GameObject:
   m_ObjectHideFlags: 0
@@ -19432,6 +20194,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1747637893
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19457,6 +20220,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1764527936
 GameObject:
   m_ObjectHideFlags: 0
@@ -19528,6 +20294,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1764527940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19553,6 +20320,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1770734057
 GameObject:
   m_ObjectHideFlags: 0
@@ -19624,6 +20394,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1770734061
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19649,6 +20420,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1779472363
 GameObject:
   m_ObjectHideFlags: 0
@@ -19720,6 +20494,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1779472367
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19745,6 +20520,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1783813225
 GameObject:
   m_ObjectHideFlags: 0
@@ -19816,6 +20594,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1783813229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19841,6 +20620,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1798802967
 GameObject:
   m_ObjectHideFlags: 0
@@ -19912,6 +20694,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1798802971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19937,6 +20720,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1799908171
 GameObject:
   m_ObjectHideFlags: 0
@@ -19968,7 +20754,11 @@ MonoBehaviour:
   startPoint: {x: 0, y: 0}
   startIndex: 8
   endPoint: {x: 0, y: 0}
+<<<<<<< HEAD
   endIndex: 29
+=======
+  endIndex: 47
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
   pathfindSearch: 0
   heuristic: 1
   pathCheck: []
@@ -20057,6 +20847,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1807890594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20082,6 +20873,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1811549782
 GameObject:
   m_ObjectHideFlags: 0
@@ -20153,6 +20947,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1811549786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20178,6 +20973,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1822503509
 GameObject:
   m_ObjectHideFlags: 0
@@ -20249,6 +21047,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1822503513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20274,6 +21073,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1830418260
 GameObject:
   m_ObjectHideFlags: 0
@@ -20345,6 +21147,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1830418264
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20370,6 +21173,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1845871453
 GameObject:
   m_ObjectHideFlags: 0
@@ -20441,6 +21247,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1845871457
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20466,6 +21273,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1874039198
 GameObject:
   m_ObjectHideFlags: 0
@@ -20537,6 +21347,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1874039202
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20562,6 +21373,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1880606468
 GameObject:
   m_ObjectHideFlags: 0
@@ -20633,6 +21447,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1880606472
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20658,6 +21473,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1889184734
 GameObject:
   m_ObjectHideFlags: 0
@@ -20728,6 +21546,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1889854945
 GameObject:
   m_ObjectHideFlags: 0
@@ -20799,6 +21618,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1889854949
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20824,6 +21644,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1893049629
 GameObject:
   m_ObjectHideFlags: 0
@@ -20895,6 +21718,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1893049633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20920,6 +21744,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1902786017
 GameObject:
   m_ObjectHideFlags: 0
@@ -20991,6 +21818,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1902786021
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21016,6 +21844,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1903755538
 GameObject:
   m_ObjectHideFlags: 0
@@ -21087,6 +21918,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1903755542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21112,6 +21944,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1908129546
 GameObject:
   m_ObjectHideFlags: 0
@@ -21183,6 +22018,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1908129550
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21208,6 +22044,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1911263865
 GameObject:
   m_ObjectHideFlags: 0
@@ -21279,6 +22118,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1911263869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21304,6 +22144,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1920480544
 GameObject:
   m_ObjectHideFlags: 0
@@ -21374,6 +22217,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1922248415
 GameObject:
   m_ObjectHideFlags: 0
@@ -21445,6 +22289,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1922248419
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21470,6 +22315,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1933120473
 GameObject:
   m_ObjectHideFlags: 0
@@ -21541,6 +22389,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1933120477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21566,6 +22415,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1942556700
 GameObject:
   m_ObjectHideFlags: 0
@@ -21637,6 +22489,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1942556704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21662,6 +22515,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1944287815
 GameObject:
   m_ObjectHideFlags: 0
@@ -21733,6 +22589,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1944287819
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21758,6 +22615,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1963678665
 GameObject:
   m_ObjectHideFlags: 0
@@ -21829,6 +22689,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1963678669
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21854,6 +22715,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1978303920
 GameObject:
   m_ObjectHideFlags: 0
@@ -21925,6 +22789,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1978303924
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21950,6 +22815,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1979917448
 GameObject:
   m_ObjectHideFlags: 0
@@ -22021,6 +22889,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1979917452
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22046,6 +22915,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1982627255
 GameObject:
   m_ObjectHideFlags: 0
@@ -22117,6 +22989,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1982627259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22142,6 +23015,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1982724633
 GameObject:
   m_ObjectHideFlags: 0
@@ -22213,6 +23089,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1982724637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22238,6 +23115,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &1985429631
 GameObject:
   m_ObjectHideFlags: 0
@@ -22309,6 +23189,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &1985429635
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22334,6 +23215,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2002149055
 GameObject:
   m_ObjectHideFlags: 0
@@ -22405,6 +23289,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2002149059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22430,6 +23315,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2015012843
 GameObject:
   m_ObjectHideFlags: 0
@@ -22501,6 +23389,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2015012847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22526,6 +23415,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1684, y: 0.2176}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2038032259
 GameObject:
   m_ObjectHideFlags: 0
@@ -22597,6 +23489,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2038032263
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22622,6 +23515,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2055170917
 GameObject:
   m_ObjectHideFlags: 0
@@ -22692,6 +23588,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &2074017163
 GameObject:
   m_ObjectHideFlags: 0
@@ -22763,6 +23660,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2074017167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22788,6 +23686,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2084411328
 GameObject:
   m_ObjectHideFlags: 0
@@ -22859,6 +23760,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2084411332
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22884,6 +23786,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2084430913
 GameObject:
   m_ObjectHideFlags: 0
@@ -22955,6 +23860,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2084430917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22980,6 +23886,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2089722207
 GameObject:
   m_ObjectHideFlags: 0
@@ -23051,6 +23960,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2089722211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23076,6 +23986,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2101200765
 GameObject:
   m_ObjectHideFlags: 0
@@ -23147,6 +24060,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2101200769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23172,6 +24086,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2101338060
 GameObject:
   m_ObjectHideFlags: 0
@@ -23243,6 +24160,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2101338064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23268,6 +24186,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
 --- !u!1 &2129822140
 GameObject:
   m_ObjectHideFlags: 0
@@ -23339,6 +24260,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+<<<<<<< HEAD
 --- !u!61 &2129822144
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23364,3 +24286,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.1}
   m_EdgeRadius: 0
+=======
+  m_MaskInteraction: 0
+>>>>>>> bb903527f0df088101a6055f714b61185981c387
