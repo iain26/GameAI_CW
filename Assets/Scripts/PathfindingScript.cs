@@ -15,21 +15,10 @@ public class PathfindingScript : MonoBehaviour {
     Vector2 tempStart;
 
     Dictionary<Vector2, Vector2> parents = new Dictionary<Vector2, Vector2>();
-
     Dictionary<Vector2, bool> visited = new Dictionary<Vector2, bool>();
-
     Dictionary<Vector2, float> g = new Dictionary<Vector2, float>();
     Dictionary<Vector2, float> h = new Dictionary<Vector2, float>();
     Dictionary<Vector2, float> f = new Dictionary<Vector2, float>();
-
-    Dictionary<Vector2, float> cDstar = new Dictionary<Vector2, float>();
-    Dictionary<Vector2, float> hDstar = new Dictionary<Vector2, float>();
-    Dictionary<Vector2, float> kDstar= new Dictionary<Vector2, float>();
-
-    Dictionary<Vector2, bool> tagDstar = new Dictionary<Vector2, bool>();
-    Dictionary<Vector2, Vector2> nextDstar = new Dictionary<Vector2, Vector2>();
-
-
 
     public enum PathfindSearch { dStar, aStar, BFS };
     public enum Heuristic { Euclidean, Manhattan , Chebyshev };
@@ -94,7 +83,6 @@ public class PathfindingScript : MonoBehaviour {
                 pathCheck = AStarSearch(startPoint, endPoint, HToUse);
                 break;
             case PathfindSearch.dStar:
-                pathCheck = AStarSearch(startPoint, endPoint, HToUse);
                 break;
             case PathfindSearch.BFS:
                 pathCheck = BreadthFirstSearch(startPoint, endPoint);
@@ -124,6 +112,7 @@ public class PathfindingScript : MonoBehaviour {
             }
             // Reverse the path so the start node is at index 0
             path.Reverse();
+            parents.Clear();
         }
         return path;
     }
@@ -132,7 +121,7 @@ public class PathfindingScript : MonoBehaviour {
     List<Vector2> CheckNeighbouringPoints(Vector2 pointToCheck)
     {
         List<Vector2> neighbours = new List<Vector2>();
-        for (int y = 1; y > -2; y--)
+        for (int y = -1; y < 2; y++)
         {
             for (int x = -1; x < 2; x++)
             {
@@ -143,9 +132,6 @@ public class PathfindingScript : MonoBehaviour {
                     if(x == 0 && y == 0) { continue; }
                     ////if searching above but there is a roof ignore
                     if (y > 0 && !traversablePoints.Contains(pointToCheck + new Vector2(0f, 1f))) { continue; }
-
-
-                    if (y > 0 && (x == 0) && traversablePoints.Contains(pointToCheck + new Vector2(0f, -1f))) { continue; }
 
                     //if diagonal movement blocked then ignore
                     if (!traversablePoints.Contains(pointToCheck + new Vector2(0f, -1f)) &&
@@ -261,90 +247,6 @@ public class PathfindingScript : MonoBehaviour {
         }
 
         return null;
-
-
-    }
-
-    List<Vector2> DStarSearch(Vector2 end, Vector2 start, HeuristicDist hToUse)
-    {
-        List<Vector2> openList = new List<Vector2>();
-        //List<Vector2> closedList = new List<Vector2>();
-
-        openList.Add(end);
-
-        while (openList.Count > 0)
-        {
-            
-            Vector2 checkFVector = startPoint;
-            float checkF = float.MaxValue;
-            foreach (Vector2 point in openList)
-            {
-                if (f.ContainsKey(point))
-                {
-                    if (f[point] < checkF)
-                    {
-                        checkF = f[point];
-                        checkFVector = point;
-                    }
-                }
-            }
-
-            Vector2 current = checkFVector;
-
-            openList.Remove(current);
-            //closedList.Add(current);
-
-            if (current == start)
-            {
-                return BackTrackPath(start);
-            }
-
-            List<Vector2> traversableNeighbours = new List<Vector2>();
-            traversableNeighbours = CheckNeighbouringPoints(current);
-
-            int numNeighbours = traversableNeighbours.Count;
-
-            float fConsistent = float.MaxValue;
-
-            for (int neighbourCurrentIndex = 0; neighbourCurrentIndex < numNeighbours; ++neighbourCurrentIndex)
-            {
-                Vector2 neighbourCurrent = traversableNeighbours[neighbourCurrentIndex];
-                //if (closedList.Contains(neighbourCurrent))
-                //{
-                //    continue;
-                //}
-                //cost is distance as terrain is standard
-                float hEstCostToEnd = Vector2.Distance(neighbourCurrent, start);
-                float gCostToNeigbour = CostToPoint(current, neighbourCurrent);
-                fConsistent = gCostToNeigbour + hEstCostToEnd;
-                if (f.ContainsKey(neighbourCurrent))
-                {
-                    f.Remove(neighbourCurrent);
-                    g.Remove(neighbourCurrent);
-                    h.Remove(neighbourCurrent);
-                }
-                f.Add(neighbourCurrent, float.MaxValue);
-                if (fConsistent <= (f[neighbourCurrent]) || !(openList.Contains(neighbourCurrent)))
-                {
-                    g.Add(neighbourCurrent, gCostToNeigbour);
-                    f[neighbourCurrent] = g[neighbourCurrent];
-                    h.Add(neighbourCurrent, hToUse(neighbourCurrent.x, neighbourCurrent.y, end.x, end.y));
-                    f[neighbourCurrent] += h[neighbourCurrent];
-                }
-                else
-                {
-                    continue;
-                }
-
-                if (!(openList.Contains(neighbourCurrent)))
-                {
-                    parents.Add(neighbourCurrent, current);
-                    openList.Add(neighbourCurrent);
-                }
-            }
-        }
-
-        return null;
     }
 
     public List<Vector2> BreadthFirstSearch(Vector2 start, Vector2 end)
@@ -439,10 +341,16 @@ public class PathfindingScript : MonoBehaviour {
         if (tempStart != startPoint)
         {
             tempStart = startPoint;
-            pathCheck = DStarSearch(startPoint, endPoint, ManhattanHeuristic);
+            pathCheck = AStarSearch(startPoint, endPoint, ManhattanHeuristic);
             Debug.DrawLine(pathCheck[0], startPoint, Color.green, 1, false);
         }
-
+        //for (int y = 1; y < 16; y++)
+        //{
+        //    for (int x = 1; x < 16; x++)
+        //    {
+        //        //GameObject.Find("Cell x : " + x.ToString() + " y: " + y.ToString()).gameObject.transform.localPosition = new Vector3(1.5f * (x - 8), 1 * (y - 8));
+        //    }
+        //}
         Vector2 change = startPoint;
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -462,15 +370,14 @@ public class PathfindingScript : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
-            endIndex = Random.Range(0, (traversablePoints.Count - 1));
-            while (traversablePoints[endIndex] == startPoint)
-                endIndex = Random.Range(0, (traversablePoints.Count -1));
-            pathCheck = DStarSearch(startPoint, endPoint, ManhattanHeuristic);
+            endIndex = Random.Range(0, traversablePoints.Count - 1);
+            pathCheck = AStarSearch(startPoint, endPoint, ManhattanHeuristic);
             Debug.DrawLine(pathCheck[0], startPoint, Color.green, 1, false);
         }
         if (!traversablePoints.Contains(change))
             change = startPoint;
         startIndex = traversablePoints.IndexOf(change);
+<<<<<<< HEAD:Assets/Scripts/PathfindingScript.cs
 
         if (f.Count > 1)
         {
@@ -480,6 +387,8 @@ public class PathfindingScript : MonoBehaviour {
             parents.Clear();
         }
 >>>>>>> bb903527f0df088101a6055f714b61185981c387:Assets/PathfindingScript.cs
+=======
+>>>>>>> parent of bb90352... DstarAttempt#1:Assets/PathfindingScript.cs
     }
 
     private float EuclideanDistanceHeuristic(float currentX, float currentY, float targetX, float targetY)
